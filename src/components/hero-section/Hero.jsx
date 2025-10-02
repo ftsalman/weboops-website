@@ -105,12 +105,12 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
-          className="flex flex-col sm:flex-row items-center gap-3"
+          className="flex  sm:flex-row items-center gap-3"
         >
           <Button
             variant="secondary"
             size="md"
-            className="px-8 py-2 rounded-full w-full sm:w-auto text-black bg-white backdrop-blur-md border border-gray-500"
+            className="px-8 py-2 whitespace-nowrap rounded-full w-full sm:w-auto text-black bg-white backdrop-blur-md border border-gray-500"
           >
             Get Started
           </Button>

@@ -84,9 +84,9 @@ export const About = () => {
           {/* Image */}
           <CardContainer className=" bg-transparent">
             <motion.img
-              src="/images/img-1.jpeg"
+              src="/images/web_Gif.gif"
               alt="About"
-              className="rounded-xl w-full object-cover"
+              className="rounded-xl border  border-violet-600 w-full object-cover"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.4 }}
             />
