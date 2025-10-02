@@ -91,7 +91,7 @@ export const NavBar = () => {
         }`}
       >
         {/* Logo */}
-        <div className="flex items-center text-red-600 justify-center gap-3">
+        <div className="flex items-center  justify-center gap-3">
           <a
             href="#home"
             onClick={(e) => {
