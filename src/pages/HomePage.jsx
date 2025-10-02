@@ -10,18 +10,31 @@ import { Footer } from "../components/footer/Footer";
 
 export const HomePage = () => {
   return (
-
     <>
-   <div className="h-full">
-      <div id="home"><Hero /></div>
-      <div id="about"><About /></div>
-      <div id="service"><Service /></div>
-      <div id="portfolio"><Portfolio /></div>
-      <div id="trusted"><TrustedBrand /></div>
-      <div id="faq"><Frequently /></div>
-      <div id="contact"><Contact /></div>
-      <Footer />
-    </div>
+      <div className=" h-full overflow-hidden">
+        <div id="home">
+          <Hero />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="service">
+          <Service />
+        </div>
+        <div id="portfolio">
+          <Portfolio />
+        </div>
+        <div id="trusted">
+          <TrustedBrand />
+        </div>
+        <div id="faq">
+          <Frequently />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
+        <Footer />
+      </div>
     </>
   );
 };

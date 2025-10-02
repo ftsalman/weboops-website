@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Portfolio = () => {
   return (
-    <div className="p-6 sm:p-10 lg:p-16 space-y-12 overflow-hidden bg-[#0a0a0a]">
+    <div className="p-6 sm:p-10 lg:p-16 space-y-12 overflow-hidden ">
       {/* Wrapper */}
       <div className="max-w-6xl mx-auto flex flex-col items-center justify-center">
         

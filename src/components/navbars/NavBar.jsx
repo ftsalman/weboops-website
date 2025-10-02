@@ -86,7 +86,7 @@ export const NavBar = () => {
   return (
     <nav className="w-full fixed top-6 left-0 z-50" aria-label="Main navigation">
       <div
-        className={`max-w-screen-xl mx-auto px-4  md:px-8 h-[64px] flex items-center justify-between rounded-full border backdrop-blur-md transition-colors ${
+        className={`max-w-screen-xl mx-4 md:mx-auto px-4  md:px-8 h-[64px] flex items-center justify-between rounded-full border backdrop-blur-md transition-colors ${
           scrolled ? "bg-white/20 border-gray-700" : "bg-gray-50/10 border-white/20"
         }`}
       >
