@@ -33,7 +33,7 @@ export const HomePage = () => {
         <div id="contact">
           <Contact />
         </div>
-        <Footer />
+    
       </div>
     </>
   );

@@ -1155,3 +1155,17 @@ export const IconChevron = ({ size = "16", color = "currentColor" }) => (
     <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
   </svg>
 );
+
+export const IconArrowOutWard = ({ size = "16", color = "currentColor" }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height={size}
+      viewBox="0 -960 960 960"
+      width={size}
+      fill={color}
+    >
+      <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z" />
+    </svg>
+  );
+};

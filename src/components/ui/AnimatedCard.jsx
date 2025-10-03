@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card } from "./Card";
 import { cn } from "../../utils/utils";
+import Button from "./button/Button";
+import {
+  IconArrowOutWard,
+  IconArrowRight,
+} from "../../assets/icons/InterfaceIcons";
 
 export const AnimatedCard = ({ head, desc, bgImg, img, className }) => {
+
+  const [hover,setHover]  = useState(false)
   return (
     <div className={cn("w-full", className)}>
       <div className="relative group w-full max-w-sm sm:max-w-md lg:max-w-lg aspect-square cursor-pointer rounded-xl border border-gray-400/50 overflow-hidden shadow-lg">
-        
         {/* Text Section */}
         <div className="z-10 absolute top-6 left-6 transition-all duration-500 group-hover:-translate-y-2">
           <h3 className="text-2xl sm:text-3xl font-bold mb-2 text-white drop-shadow">
@@ -27,6 +33,16 @@ export const AnimatedCard = ({ head, desc, bgImg, img, className }) => {
             group-hover:scale-110 group-hover:blur-sm
           "
         />
+
+        <Button
+          variant="secondary"
+          size="lg"
+          className="absolute bottom-4 right-4 z-20 w-20 h-20 rounded-full 
+             transition-transform duration-300 border-gray-200 ease-in-out 
+             hover:scale-105 hover:bg-blue-700"
+        >
+          <IconArrowOutWard size="40" color="#F3F3F3" />
+        </Button>
 
         {/* Overlay Card */}
         <Card
