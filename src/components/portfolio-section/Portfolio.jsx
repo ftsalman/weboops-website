@@ -50,7 +50,7 @@ const Portfolio = () => {
                 head="Atom"
                 desc="Web Development"
                 bgImg="https://i.pinimg.com/1200x/91/63/1d/91631df71373830ccf68ef022c24edc2.jpg"
-                img="https://i.pinimg.com/1200x/d7/89/39/d7893923eb163f08af690a11a3cd7454.jpg"
+                img="/images/gif-3.gif"
               />
             </motion.div>
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
                 head="Atom"
                 desc="Web Development"
                 bgImg="https://i.pinimg.com/1200x/70/3c/43/703c4340446d7a139a42fa4d25925b26.jpg"
-                img="https://i.pinimg.com/1200x/29/0b/34/290b343af190f93cb3efaae4f12be83e.jpg"
+                img="/images/GIF.gif"
               />
             </motion.div>
           </div>
@@ -81,7 +81,7 @@ const Portfolio = () => {
                 head="Atom"
                 desc="Web Development"
                 bgImg="https://i.pinimg.com/1200x/57/fe/54/57fe54d3c411721e093b40fe035ba020.jpg"
-                img="https://i.pinimg.com/1200x/56/17/9c/56179c3b0a03cf8d5feb7ec2486b051f.jpg"
+                img="/images/gif-1.gif"
               />
             </motion.div>
 
@@ -95,7 +95,7 @@ const Portfolio = () => {
                 head="Atom"
                 desc="Web Development"
                 bgImg="https://i.pinimg.com/736x/80/a4/d2/80a4d2eb93a0a56299b55a7ca992e88a.jpg"
-                img="/images/GIF.gif"
+                img="/images/gif-2.gif"
               />
             </motion.div>
           </div>

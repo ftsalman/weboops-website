@@ -84,7 +84,7 @@ export const About = () => {
           {/* Image */}
           <CardContainer className=" bg-transparent">
             <motion.img
-              src="/images/web_Gif.gif"
+              src="/images/about-gif.gif"
               alt="About"
               className="rounded-xl border  border-violet-600 w-full object-cover"
               whileHover={{ scale: 1.05 }}
@@ -106,13 +106,13 @@ export const About = () => {
                 viewport={{ once: false, amount: 0.2 }}
               >
                 <CardContainer
-                  className="p-6 rounded-xl border border-gray-300 shadow-lg 
+                  className="p-6 rounded-xl border border-violet-600/50 shadow-lg 
                              bg-gradient-to-b from-[#1a002d] to-[#120020] text-white"
                 >
                   {/* Icon Circle */}
                   <div
                     className="w-12 h-12 flex items-center justify-center 
-                               rounded-full border border-violet-500 bg-white/10 mb-4"
+                               rounded-full border border-violet-600/50 bg-white/10 mb-4"
                   >
                     {item.icon}
                   </div>

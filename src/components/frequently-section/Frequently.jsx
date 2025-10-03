@@ -117,7 +117,7 @@ const AccordionItem = ({ item, defaultOpen = false }) => {
   const [open, setOpen] = useState(defaultOpen);
 
   return (
-    <div className="border-b border-gray-700 py-4">
+    <div className="border-b border-[#3a0b55]  py-4">
       {/* Toggle Button */}
       <button
         onClick={() => setOpen((prev) => !prev)}
@@ -128,7 +128,7 @@ const AccordionItem = ({ item, defaultOpen = false }) => {
         <motion.span
           animate={{ rotate: open ? 90 : 0 }}
           transition={{ duration: 0.3 }}
-          className="flex-shrink-0"
+          className="flex-shrink-0 cursor-pointer"
         >
           <FaChevronRight className="w-5 h-5 text-purple-400" />
         </motion.span>

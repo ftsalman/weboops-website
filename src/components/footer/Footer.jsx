@@ -19,19 +19,19 @@ export const Footer = () => {
         viewport={{ once: false, amount: 0.2 }}
     >
         <div class="flex items-center gap-8">
-        <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+        <a href="#home" class="font-medium text-gray-500 hover:text-violet-600 transition-all">
             Home
         </a>
-        <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+        <a href="#about" class="font-medium text-gray-500 hover:text-violet-600 transition-all">
             About
         </a>
-        <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+        <a href="#service" class="font-medium text-gray-500 hover:text-violet-600 transition-all">
             Services
         </a>
-        <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+        <a href="#contact" class="font-medium text-gray-500 hover:text-violet-600 transition-all">
             Contact
         </a>
-        <a href="#" class="font-medium text-gray-500 hover:text-black transition-all">
+        <a href="#faq" class="font-medium text-gray-500 hover:text-violet-600  transition-all">
             Help
         </a>
     </div>
@@ -64,7 +64,7 @@ export const Footer = () => {
             </svg>
         </a>
     </div>
-    <p class="mt-8 text-center">Copyright © 2025 <a href="https://prebuiltui.com">PrebuiltUI</a>. All rights reservered.</p>
+    <p class="mt-8 text-center">Copyright © 2025 <a href="#">WEBOOPS</a>. All rights reservered.</p>
     </motion.footer>
   );
 };

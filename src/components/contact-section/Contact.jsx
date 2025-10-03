@@ -108,7 +108,7 @@ export const Contact = () => {
                viewport={{ once: false, amount: 0.2 }}
               variants={fadeUp}
               whileHover={{ scale: 1.05 }}
-              className="relative p-6 border border-[#3a0b55] w-full h-fit bg-violet-900/20 rounded-2xl"
+              className="relative p-6 border border-violet-600/50 w-full h-fit bg-violet-900/20 rounded-2xl"
             >
               {/* Icon Circle */}
               <div className="absolute -top-10">

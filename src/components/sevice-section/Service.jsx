@@ -76,7 +76,7 @@ export const Service = () => {
         render={(item) => (
           <motion.div
             key={item.id}
-            className="relative p-6 border border-[#3a0b55] w-full h-fit bg-violet-900/20 rounded-2xl"
+            className="relative p-6 border border-violet-600/50 w-full h-fit bg-violet-900/20 rounded-2xl"
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: false, amount: 0.2 }}
@@ -116,7 +116,7 @@ export const Service = () => {
         whileInView={{ opacity: 1, scaleX: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.2 }}
-        className="border mt-40 border-gray-500/20 w-full md:block hidden origin-left"
+        className="border mt-40 border-[#3a0b55]  w-full md:block hidden origin-left"
       />
     </div>
   );

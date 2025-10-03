@@ -31,7 +31,7 @@ export const AnimatedCard = ({ head, desc, bgImg, img, className }) => {
         {/* Overlay Card */}
         <Card
           className="
-            absolute p-1 border hover:border-violet-600 bg-transparent border-gray-300/50
+            absolute  p-1 hover:border-violet-600 bg-transparent border-gray-300/50
             opacity-0 group-hover:opacity-100
             transform translate-y-1/4
             transition-all duration-700 ease-in-out
@@ -42,7 +42,7 @@ export const AnimatedCard = ({ head, desc, bgImg, img, className }) => {
           <img
             src={img}
             alt={`${head} detail`}
-            className="w-full h-full object-cover rounded-sm transition-transform duration-700 ease-in-out group-hover:scale-105"
+            className="w-full h-full object-cover rounded-xl  transition-transform duration-700 ease-in-out group-hover:scale-105"
           />
         </Card>
       </div>
